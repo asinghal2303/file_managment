@@ -1,0 +1,31 @@
+# Ignore files created by IDEs or text editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore files created by operating systems
+.DS_Store
+Thumbs.db
+
+# Ignore Python related files
+*.pyc
+__pycache__/
+
+# Ignore compiled code
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore build directories
+target/
+node_modules/
+bower_components/
+
+# Ignore dependencies
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
